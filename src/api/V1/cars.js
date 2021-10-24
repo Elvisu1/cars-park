@@ -24,6 +24,8 @@ router.post('/add', (req,res) =>{
 
 
     // ikelti masina
+    console.log('we got data to create car', req.body)
+    res.send({msg: 'trying to add a car'})
 });
 
 router.delete('/:id', (req,res)=>{

@@ -18,7 +18,7 @@ const generatedCars = arr.map(carItem =>{
             <div class="card-body">
                 <h5 class="card-title">${carItem.title}</h5>
                 <p class="card-text">${carItem.price} € </p>
-                <button class="btn btn-primary">View</button>
+                <button class="btn btn-primary">Delete</button>
             </div>
         </div>
     `
